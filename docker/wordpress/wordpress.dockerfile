@@ -5,6 +5,6 @@ WORKDIR /tmp
 COPY ./docker/wordpress .
 
 # Copy from project root
-# COPY . .
+COPY . .
 
 WORKDIR /var/www/html
