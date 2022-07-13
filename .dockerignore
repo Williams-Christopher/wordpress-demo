@@ -1,0 +1,7 @@
+src/
+# Uncomment if copying files from the project root, Comment if copying from ./docker/wordpress
+# docker/
+**/*.dockerfile
+.dockerignore
+docker-compose.yml
+.git
